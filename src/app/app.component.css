@@ -1,0 +1,6 @@
+/* <div style="background-image:"https://www.webdesign.org/img_articles/22292/head_full_770.jpg"></div> */
+
+.bg{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS3Y1KY8gkRnfVRe0vKrc9qRgMhdma6s8cFA&usqp=CAU");
+    background-size: cover;
+}

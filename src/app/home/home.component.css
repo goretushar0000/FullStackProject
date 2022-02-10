@@ -1,0 +1,13 @@
+/* body, html {
+    height: 100%;
+  } */
+  .bg {
+    background-image: url("https://images.collegedunia.com/public/college_data/images/appImage/14593_PREC.jpg?mode=stretch");
+
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  } 

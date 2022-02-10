@@ -1,0 +1,14 @@
+.bg {
+    /* The image used */
+    background-image: url("https://images.collegedunia.com/public/college_data/images/appImage/14593_PREC.jpg?mode=stretch");
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  } 

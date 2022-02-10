@@ -1,0 +1,24 @@
+<div style="background-color: lightyellow">
+    <div class="container" style="border: 5px; border-style: solid;border-color: lightgreen">
+        <h1 style="color: cornflowerblue;text-align: center;">Fill below Details to update the student data</h1>
+    <form>
+        <div class="form-group">
+          <label>id</label>
+          <input type="id" class="form-control" placeholder="Enter id" name="id" [(ngModel)]="inputinfo.id">
+        </div>
+        <div class="form-group">
+          <label>firstName</label>
+          <input type="text" class="form-control" placeholder="enter first name" name="firstName" [(ngModel)]="inputinfo.firstName">
+        </div>
+        <div class="form-group">
+            <label>lastName</label>
+            <input type="text" class="form-control" placeholder="enter last name" name="lastName" [(ngModel)]="inputinfo.lastName">
+          </div>
+          <div class="form-group">
+            <label>branch</label>
+            <input type="text" class="form-control" placeholder="enter branch" name="branch" [(ngModel)]="inputinfo.branch">
+          </div><br>
+        <button type="submit" class="btn btn-success" (click)="updateThisStudent()">Update</button>
+    </form>
+    </div>
+    </div>

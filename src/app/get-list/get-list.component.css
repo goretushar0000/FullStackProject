@@ -1,0 +1,13 @@
+
+  .bg {
+    /* The image used */
+    background-image: url("https://image.shutterstock.com/image-photo/white-old-wood-floor-blurred-260nw-526663576.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
